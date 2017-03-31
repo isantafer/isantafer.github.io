@@ -1,60 +1,65 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <title>Le Restaurant | Contact</title>
- <body>
-  <h1>Le Restaurant | Contact</h1>
-<div> 
-<a href="index.html">Home</a> | <a href="menu.html">Menu</a> | <a href="contact.html">Contact</a> 
-</div>
-
-<img src="img/reserved.png">
-
-<div>
-<h3>Phone</h3>
-	<p>
-		(612) 332-1775
-	</p>
-
-<h3>Address</h3>
-	<p>
-		701 First Avenue North</br>
-		Minneapolis, MN
-	</p>
-
-    	
-<h3>Open Hours</h3>
-	<p>
-		Mon - Thurs: 07.30am to 10.00pm</br>
-		Fri: 07.30am to 12.00am</br>
-		Sat & Sun: Closed
-	</p>
- 		
-</div>
-
-
-
-<h3>Email us</h3>
-<form>
-  <div>
-        <label>E-mail</label>
-      <input type="email" placeholder="email@example.com" style="width: 500px;">
-    </div>
-  
-    <div>
-		  <textarea placeholder="Type your message here..." 
-		  	style="height: 100px;
-		  	width: 600px;
-		  	font-size: 14px;"></textarea>
-    </div>
-
-    <div>
- 		 <input type="submit" value="Submit">
-    </div>
-
-</form>
-
-
-  </body>
+   <head>
+      <meta charset="UTF-8">
+      <title>Le Restaurant | Contact</title>
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+      <link href='http://fonts.googleapis.com/css?family=Arizonia' rel='stylesheet' type='text/css'>
+      <link href='http://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
+   <body>
+      <div class ="header">
+         <div class ="container">
+            <div class ="title">
+               <h1>Le Restaurant | Contact</h1>
+            </div>
+            <div class ="nav">
+               <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="menu.html">Menu</a></li>
+                  <li><a class="active" href="contact.html">Contact</a></li>
+               </ul>
+            </div>
+         </div>
+      </div>
+      <div class ="container-content">
+         <img src="img/reserved.png" alt="contact-img" id="img-big" style="width: 80%">
+         <div class = "content">
+            <h2>Phone</h2>
+            <p>
+               (612) 332-1775
+            </p>
+            <h2>Address</h2>
+            <p>
+               701 First Avenue North</br>
+               Minneapolis, MN
+            </p>
+            <h2>Open Hours</h2>
+            <p>
+               Mon - Thurs: 07.30am to 10.00pm</br>
+               Fri: 07.30am to 12.00am</br>
+               Sat & Sun: Closed
+            </p>
+         </div>
+         <h2>Email us</h2>
+         <form>
+            <div>
+               <label>E-mail:</label>
+               </br>
+               <input type="email" placeholder="email@example.com" style="width: 400px;">
+            </div>
+            <div>
+               <label>Message:</label>
+               </br>
+               <textarea placeholder="Type your message here..." 
+                  style="height: 100px;
+                  width: 400px;
+                  font-size: 14px;"></textarea>
+            </div>
+            <div>
+               <input type="submit" value="Submit">
+            </div>
+         </form>
+      </div>
+   </body>
 </html>
+

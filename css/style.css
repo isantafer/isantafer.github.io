@@ -1,0 +1,127 @@
+body {
+width: 100%;
+margin: auto;
+padding-bottom: 25px;
+font-family: "Helvetica";
+background: #ffe396;
+}
+textarea {
+resize: none;
+background: #f4e8c8;
+}
+input{
+background: #f4e8c8;
+}
+.container-content{
+width: 900px;
+margin: auto;
+margin-top: 100px;
+}
+.menu{
+font-family: "Helvetica";
+}
+.menu-items{
+float: left;
+padding-right: 15px;
+width: 60%;
+}
+div.plate-img{
+float: right;
+padding-top: 20px;
+padding-left: 15px;
+top:0;
+bottom:0;
+margin:auto;
+}
+#menu-img{
+float: right;
+border-radius: 15px 50px;
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+#img-big{
+border-radius: 15px 15px;
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+.container{
+width: 900px;
+margin: auto;
+}
+.header {
+background: #f7d367;
+width: 100%;
+top: 0;
+position: fixed;
+overflow: hidden;
+-webkit-user-select: none; /* Chrome/Safari */        
+-moz-user-select: none; /* Firefox */
+-ms-user-select: none; /* IE10+ */
+/* Rules below not implemented in browsers yet */
+-o-user-select: none;
+user-select: none;
+}
+.title{
+float: left;
+color: #75890C;
+vertical-align:middle;
+font:  1em 'Arizonia', Helvetica, sans-serif;
+text-shadow: 4px 4px 0px rgba(0,0,0,0.1); 
+}
+li {
+list-style: none;
+float: left;
+padding-top: 15px;
+font-family: "Helvetica"
+font-size: 30px;
+font-style: bold;
+}
+li a {
+text-decoration: none;
+color: #75890C;
+text-align: center;
+padding: 60px 30px;
+overflow: hidden;
+}
+li a:hover {
+background-color: #dda20d;
+color:  white;
+}
+.active {
+background-color: #75890C;
+color:  #fff;
+}
+.nav{
+float: right;
+vertical-align:middle;
+}
+h2{ 
+color: #2c3306;
+vertical-align:middle;
+font:  2em 'Great Vibes', Helvetica, sans-serif;
+text-shadow: 4px 4px 0px rgba(0,0,0,0.1); 
+}
+p{
+color: #2c3306;
+}
+label{
+color: #2c3306;
+}
+.menu-items dt {
+font-weight: bold;
+font:  1.5em 'Great Vibes', Helvetica, sans-serif;
+color: #75890C;
+}
+.menu-items dd {
+font-style: italic;
+color: #2c3306;
+}
+.bio{
+padding-top: 10px;
+padding-bottom: 10px;
+}
